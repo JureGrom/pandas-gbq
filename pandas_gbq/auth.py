@@ -13,7 +13,7 @@ import pandas_gbq.exceptions
 logger = logging.getLogger(__name__)
 
 
-SCOPES = ['https://www.googleapis.com/auth/bigquery']
+SCOPES = ['https://www.googleapis.com/auth/bigquery', 'https://www.googleapis.com/auth/drive']
 
 
 def get_credentials(
